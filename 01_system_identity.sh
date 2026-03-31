@@ -1,11 +1,5 @@
 #!/bin/bash
-# ============================================================
-# Script 1: System Identity Report
-# Course: Open Source Software (Auditing Python)
-# Description: Displays distro, kernel, user, uptime, and
-#              OS license information.
-# ============================================================
-
+#VISHAL MALK
 echo "============================================"
 echo "         SYSTEM IDENTITY REPORT            "
 echo "============================================"
@@ -61,7 +55,7 @@ elif [ -f /etc/os-release ]; then
 else
     echo "  Ubuntu is distributed under the GPL and related open-source licenses."
 fi
-
+#VISHAL MALIK 24BAI10357
 echo ""
 echo "============================================"
 echo "           END OF REPORT                   "
